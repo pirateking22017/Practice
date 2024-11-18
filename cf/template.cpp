@@ -2,9 +2,11 @@
 #include <vector>
 using namespace std;
 
-#define fl(i, n) for (int i = 0; i < n; i++)
+#define fl0(i, n) for (int i = 0; i < n; i++)
+#define fl1(i, n) for (int i = 0; i <= n; i++)
 using ll = long long;
 using vi = vector<int>;
+using usi = unordered_set<int>;
 
 void solve()
 {
@@ -18,4 +20,6 @@ int main()
     {
         solve();
     }
+
+    return 0;
 }
