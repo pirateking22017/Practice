@@ -13,8 +13,13 @@ typedef unsigned long long ull;
 typedef long double lld;
 typedef __int128 ell;
 typedef tree<pair<ll, ll>, null_type, less<pair<ll, ll>>, rb_tree_tag, tree_order_statistics_node_update > pbds; // find_by_order, order_of_key
+
+//LOOPS
 #define fl0(i, n) for (int i = 0; i < n; i++)
 #define fl1(i, n) for (int i = 0; i <= n; i++)
+#define fl01(i, x, n) for (int i = x; i < n; i++)
+#define fl11(i, x, n) for (int i = x; i >= n; i--)
+
 #define fastio() ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define MOD 1000000007
 #define MOD1 998244353
